@@ -1,15 +1,41 @@
 <html>
 <head>
 <title>Albums</title>
+<link href="{{ url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" />
 </head>
 <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="">Radiohead Discography</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/info/">Information</a></li>
+      <li class="dropdown">
+      <li class="Active">
+        <a class="dropdown-toggle" data-toggle="dropdown"
+       a href=""> >Albums<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Pablo Honey</a></li>
+            <li><a href="#">The Bends</a></li>
+          </ul>
+        <li>
+    </ul>
+  </div>
+</nav>
+<h1> Radiohead Discography </h1>
 <h1> Albums </h1>
 <h2> .... </h2>
 <ul style="list-style-type:none">
 <li> Pablo Honey </li>
-<p> Release Date: 1991, Genre:, Run Time: <p>
+<p> Release Date: 1991 Genre: Run Time: <p>
+<p> Number of Tracks: </p>
 <p> Most Streamed Song: <a href>Creep</a>
 <li> The Bends </li>
+<p> Release Date: Genre Run Time: </p>
+<p> Number of Tracks: </p>
+<p> Most Streamed Track: </p>
 <li> OK Computer </li>
 <li> Kid A </li>
 <li> Hail to the Thief </li>
