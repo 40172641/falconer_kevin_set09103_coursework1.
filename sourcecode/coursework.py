@@ -7,8 +7,8 @@ def home():
 
 @app.route('/albums/<album_name>/')
 def root(album_name):
-  jsonfile=open('album.json').read()
-  album=json.loads(jsonfile)
+  jsonfile=open('album.json').read() #Reads JSON File
+  album=json.loads(jsonfile) #Loads JSON File
   return render_template("album.html", albums=album)
 
 @app.route('/info/')
@@ -24,6 +24,11 @@ def contact():
   if request.method == 'POST':
     print request.form
     names= request.form['name']
+    email= request.form['email']
+    message= request.form['message']
+    text_file = open("static/contact_us_messages/%s.txt" %names, "w")
+    text_file.write("Name: " + names + "\nEmail:  " + email + "\nMessage: " + message)
+    text_file.close()
     return render_template('response.html', name=names), 200
   else:
     return render_template('contact.html'),200
