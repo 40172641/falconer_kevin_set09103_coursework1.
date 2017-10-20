@@ -1,7 +1,5 @@
-<html>
-<body>
-  {% for album in albums  %} 
-    <p> {{ album }}
-  {% endfor %}
-</body>
-</html>
+{% extends "header.html" %}
+{% block content %}
+  <p>Name: {{ albums['album_name']}} </p>
+  <p>Release Date: {{ albums['release_date']}}  </p>
+{% endblock %}
