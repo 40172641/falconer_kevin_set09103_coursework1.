@@ -8,33 +8,21 @@ def home():
 @app.route('/albums/<album_name>/')
 def root(album_name):
   jsonfile=open('album.json').read() #Reads JSON File
-  album=json.loads(jsonfile) #Loads JSON File
-  specified_album =  album
-  for item in album:
-    if item['album_name']==album_name:
-      specified_album = item
-  #  if item['album_name']!=album_name:
-  #    return render_template("error.html")
-# print specified_album
-  return render_template("album.html", albums=specified_album)
+  albums=json.loads(jsonfile) #Loads JSON File
+  for album in albums:
+    if album['album_name']==album_name:
+      return render_template('album.html', albums=album)
+
 
 @app.route('/albums/<album_name>/<song_name>/')
 def song(album_name, song_name):
-  json_album=open('album.json').read()
   json_song=open('song.json').read()
-  album_root=json.loads(json_album)
-  song_root=json.loads(json_song)
-  specified_album_name= album_root
-  specified_song=song_root
-  for item in album_root:
-    for item_song in song_root:
-      if item['album_name']==album_name:
-        if item_song['song_name']==song_name and item_song['album_name']==album_name:
-          specified_album_name=item
-          specified_song=item_song
-  return render_template("song.html",albums=specified_album_name,songs=specified_song)
+  songs=json.loads(json_song)
+  for song in songs:
+    if song['song_name']==song_name and song['album_name']==album_name:
+          return render_template("song.html", songs=song)
 
-@app.route('/info/')
+@app.route('/information/')
 def info():
   return render_template('info.html'), 200
 

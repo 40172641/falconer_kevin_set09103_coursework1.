@@ -12,6 +12,63 @@
     "song_length":"3:59",
     "spotify":"202,277,341",
     "cover":"http://localhost:5000/static/img/pablo_honey.jpg"
+  },
+  {
+    "album_name":"The Bends",
+    "song_name":"High And Dry",
+    "song_length":"4:17",
+    "spotify":"53,489,153",
+    "cover":"http://localhost:5000/static/img/the_bends.jpg"
+  },
+  {
+    "album_name":"OK Computer",
+    "song_name":"Karma Police",
+    "song_length":"4:24",
+    "spotify":"92,594,719",
+    "cover":"http://localhost:5000/static/img/ok_computer.jpg"
+  },
+  {
+    "album_name":"Kid A",
+    "song_name":"Everything In It's Right Place",
+    "song_length":"4:11",
+    "spotify":"27,001,610",
+    "cover":"http://localhost:5000/static/img/kid_a.jpg"
+  },
+  {
+    "album_name":"Amnesiac",
+    "song_name":"Pyramid Song",
+    "spotify":"14,571,577",
+    "song_length":"4:49",
+    "cover":"http://localhost:5000/static/img/amnesiac.jpg"
+  
+  },
+  {
+    "album_name":"Hail To The Thief",
+    "song_name":"There There",
+    "song_length":"12,975,265",
+    "spotify":"5:24",
+    "cover":"http://localhost:5000/static/img/hail_to_the_thief.jpg"
+  },
+  {
+    "album_name":"In Rainbows",
+    "song_name":"Weird Fishes Arpeggi",
+    "song_length":"5:18",
+    "spotify":"9,711,485",
+    "cover":"http://localhost:5000/static/img/in_rainbows.jpg"
+  },
+  {
+    "album_name":"King Of Limbs",
+    "song_name":"Lotus Flower",
+    "song_length":"5:00",
+    "spotify":"21,368,827",
+    "cover":"http://localhost:5000/static/img/king_of_limbs.jpg"
+  },
+  {
+    "album_name":"A Moon Shaped Pool",
+    "song_name":"Burn The Witch",
+    "song_length":"3:41",
+    "spotify":"38,756,645",
+    "cover":"http://localhost:5000/static/img/moon.jpg"
   }
 
 ]

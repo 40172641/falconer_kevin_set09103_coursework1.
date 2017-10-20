@@ -1,0 +1,30 @@
+[
+  {
+    "album_name":"OK Computer"
+  },
+  
+  {
+      "album_name":"Pablo Honey",
+      "genre":"Alternative Rock",
+      "release_date":"22 February 1993",
+      "run_time":"42:11",
+      "cover":"http://localhost:5000/static/img/pablo_honey.jpg",
+      "songs": {
+              "track1": "You",
+              "track2": "Creep",
+              "track3": "How Do You?",
+              "track4": "Stop Whispering",
+              "track5": "Thinking About",    
+              "track6": "Anyone Can Play Guitar",           
+              "track7": "Ripcord",           
+              "track8": "Vegtable",
+              "track9":"Prove Yourself",
+              "track10": "I Can't",
+              "track11": "Lurgee",
+              "track12":""
+          }
+      },
+    {
+      "album_name":"The Bends"
+    }
+]
