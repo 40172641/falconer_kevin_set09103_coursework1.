@@ -9,7 +9,12 @@ def home():
 def root(album_name):
   jsonfile=open('album.json').read() #Reads JSON File
   album=json.loads(jsonfile) #Loads JSON File
-  return render_template("album.html", albums=album)
+  specified_album =  album
+  for item in album:
+    if item['album_name']==album_name:
+      specified_album = item
+# print specified_album
+  return render_template("album.html", albums=specified_album)
 
 @app.route('/info/')
 def info():
