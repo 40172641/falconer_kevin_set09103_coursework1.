@@ -1,8 +1,8 @@
-<html>
-<head>
-  <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" />
-</head>
-<body>
-<h1> {{ song_name }} </h1>
-</body>
-</html>
+{% extends "header.html" %}
+{% block content %}
+  <h2> Name: {{songs['song_name']}} </h2>
+  <h3> Album: {{songs['album_name']}} </h3>
+  <img src="{{ songs['cover']}}" height"250" width="250"</img src>
+  <h4> Spotify Streams: {{songs['spotify']}} </h4>
+  <h4> Song Length: {{ songs['song_length']}} </h4>
+{% endblock %}

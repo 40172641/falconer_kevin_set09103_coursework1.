@@ -2,9 +2,10 @@
   {     
       "album_name":"Pablo Honey",
       "genre":"Alternative Rock",
-      "release_date":"1993",
+      "release_date":"22 February 1993",
+      "run_time":"42:11",
       "cover":"http://localhost:5000/static/img/pablo_honey.jpg",
-      "bio":"",
+      "bio":"Pablo Honey is the debut studio album by the English alternative rock band Radiohead, released on 22 February 1993 by Parlophone Records in the United Kingdom and by Capitol Records in the United States. The album received a generally favourable reception from critics, but some criticized its grunge sound as derivative and found certain songs underdeveloped. The work is often held in a negative light in comparison to the band's subsequent studio albums, though some retrospectives are positive toward it.",
       "songs": {
                   "track1": "You",
                   "track2": "Creep",
@@ -22,21 +23,34 @@
   },
   {
       "album_name":"The Bends",
-      "genre":"Alternative Rock/Britpop",
-      "release_date":"1995",
+      "genre":"Alternative Rock",
+      "release_date":"13 March 1995",
+      "run_time":"48:37",
       "cover":"http://localhost:5000/static/img/the_bends.jpg",
-      "bio":"...",
+      "bio":"The Bends, the  second studio album by the English alternative rock band Radiohead, released on 13 March 1995 by Parlophone Records in the United Kingdom and by Capitol Records in the United States. The album was produced by John Leckie and engineered by Nigel Godrich, who would go on to co-produce all future albums by the band. The Bends marked the beginning of a shift in aesthetics and themes for the band, with greater use of keyboards and more abrasive guitar tracks, while balancing them with subtler ones. The introspective grunge-influenced style of their debut album Pablo Honey (1993) evolved into more multi-layered rock with cryptic lyrics and larger ideas, as the band and its lead singer and songwriter Thom Yorke reacted against the rigours of their near-constant world tours.",
       "songs":{
-                  "track1":"Planet Telex"
+                  "track1":"Planet Telex",
+                  "track2":"The Bends",
+                  "track3":"High and Dry",
+                  "track4":"Fake Plastic Trees",
+                  "track5":"Bones",
+                  "track6":"(Nice Dream)",
+                  "track7":"Just",
+                  "track8":"My Iron Lung",
+                  "track9":"Bullet Proof ... I Wish I Was",
+                  "track10":"Black Star",
+                  "track11":"Sulk",
+                  "track12":"Street Spirit(Fade Out)"
               }
   },
   {
 
     "album_name":"OK Computer",
-    "genre":"...",
-    "release_date":"1997",
+    "genre":"Alternative Rock/Art Rock",
+    "release_date":"16 June 1997",
+    "run_time":"53:21",
     "cover":"http://localhost:5000/static/img/ok_computer.jpg",
-    "bio": "",
+    "bio": "OK Computer is the third studio album by English alternative rock  band Radiohead, released in 1997 on EMI subsidiaries Parlophone and Capitol  Records. The members of Radiohead self-produced the album with Nigel  Godrich, an arrangement they have used for their subsequent albums. Other  than the song Lucky, which was recorded in 1995, Radiohead recorded the  album in Oxfordshire and Bath between 1996 and early 1997, mostly in the  historic mansion St Catherine's Court. The band made a deliberate attempt to distance themselves from the guitar-oriented, lyrically introspective style of their previous album, The Bends. OK Computer's abstract lyrics, densely layered sound and eclectic range of influences laid the groundwork for Radiohead's later, more experimental work. Upon the album's delivery to EMI and its global subsidiary distributors, label representatives generally lowered their sales estimates, deeming the record's sound uncommercial and difficult to market. Nevertheless, OK Computer reached number one on the UK Albums Chart and became the band's highest album entry on the US charts at the time, debuting at number 21 on the Billboard 200. Five songs from the album's, Paranoid Android, Karma Police, Lucky, No Surprises, and  Airbag were released as promotional singles.",
     "songs":
           {
             "track1": "Airbag",
@@ -55,9 +69,10 @@
   },
   {
     "album_name":"Kid A",
-    "genre":"...",
-    "release_date":"2000",
-    "bio": "",
+    "genre":"Electronica, Experimental Rock, Ambient",
+    "release_date":"2 October 2000",
+    "run_time":"49:56",
+    "bio": "Kid A is the fourth studio album by the English rock band Radiohead, released on 2 October 2000 by Parlophone. On the verge of a breakdown after promoting Radiohead's 1997 album OK Computer, songwriter Thom Yorke envisioned a radical change in direction. Radiohead replaced their rock sound with synthesisers, drum machines, the ondes Martenot, string orchestras and brass instruments. They incorporated influences from genres such as electronic music, krautrock, jazz, and 20th-century classical music.",
     "cover": "http://localhost:5000/static/img/kid_a.jpg",
     "songs":
           {
@@ -75,32 +90,112 @@
         } 
  },
   {
+    "album_name":"Amnesiac",
+    "genre":"Electronica, Experimental Rock",
+    "release_date":"5 June 2001",
+    "run_time":"43:57",
+    "bio":"Amnesiac is the fifth studio album by the English rock band Radiohead, released on 5 June 2001 by Parlophone Records in the United Kingdom and a day later by Capitol Records in the United States. Recorded during the same sessions for the band's previous album Kid A (2000) with producer Nigel Godrich, the album incorporates similar influences of electronic music, 20th century classical music, jazz and krautrock.  ",
+    "cover":"https://localhost:5000/static/img/amnesiac.jpg",
+    "songs":
+          {
+            "track1":"Packt Like Sardines In a Crushed Tin Box",
+            "track2":"Pyramid Song",
+            "track3":"Pulk/Pull Revolving Doors",
+            "track4":"You And Whose Army",
+            "track5":"I Might Be Wrong",
+            "track6":"Knives Out",
+            "track7":"Morning Bell/Amnesiac",
+            "track8":"Dollars & Cents",
+            "track9":"Hunting Bears",
+            "track10":"Like Spinning Plates",
+            "track11":"Life In a Glasshouse"
+          }
+  },
+ {
     "album_name":"Hail to the Thief",
-    "genre":"...",
+    "genre":"Alternative Rock, Art Rock",
+    "run_time":"56:35",
     "cover":"http://localhost:5000/static/img/hail_to_the_thief.jpg",
-    "release_date":"2003",
-    "songs":""
-
+    "release_date":"9 June 2003",
+    "bio":"Hail to the Thief is the sixth studio album by the English rock band Radiohead. Hail to the Thief combines alternative rock instrumentation with drum machines, synthesisers, and digital manipulation. To avoid the protracted recording sessions of previous albums, Radiohead recorded Hail to the Thief quickly and focused on recording live takes rather than overdubs. Songwriter Thom Yorke wrote many of the lyrics in response to the War on Terror and the resurgence of right-wing politics in the west at theturn of the millennium. ",
+    "songs":
+          {
+            "track1":"2+2=5",
+            "track2":"Sit Down. Stand Up",
+            "track3":"Sail To The Moon",
+            "track4":"Backdrifts",
+            "track5":"Go To Sleep",
+            "track6":"Where I End and You Begin",
+            "track7":"We Suck Young Blood",
+            "track8":"The Gloaming",
+            "track9":"There, There",
+            "track10":"I Will",
+            "track11":"A Punch Up At a Wedding",
+            "track12":"Myxtomatosis",
+            "track13":"Scatterbrain",
+            "track14":"A Wolf At The Door"
+          }
   },
   {
     "album_name":"In Rainbows",
-    "genre":"...",
+    "genre":"Alternative Rock, Avant-Rock",
+    "run_time":"42:39",
     "cover":"http://localhost:5000/static/img/in_rainbows.jpg",
-    "release_date":"2007",
-    "songs":""
+    "release_date":"10 October 2007",
+    "bio":"In Rainbows is the seventh studio album by the English rock band Radiohead, self-released on 10 October 2007 as a pay-what-you-want download. The album is more personal than previous Radiohead albums, with singer Thom Yorke describing most of the songs as his versions of seduction songs.[4] Radiohead incorporated a variety of musical styles and instruments, using electronic instruments, string arrangements, piano, and the ondes Martenot. The album's pay-what-you-want release, the first for a major act, made headlines around the world and sparked debate about implications for the music industry. The physical release debuted at #1 on the UK Albums Chart and the US Billboard 200 chart. By October 2008, In Rainbows had sold over three million copies worldwide.",
+    "songs":
+          {
+            "track1":"15 Step",
+            "track2":"Bodysnatchers",
+            "track3":"Nude", 
+            "track4":"Weird Fishes/Arpeggi",
+            "track5":"All I Need",
+            "track6":"Faust Arp",
+            "track7":"Reckoner",
+            "track8":"House of Cards",
+            "track9":"Jigsaw Falling Into Place",
+            "track10":"Videotape"
+          }
   },
   {
     "album_name":"King of Limbs",
-    "genre":"...",
+    "genre":"Experimental Rock, Electronic",
+    "run_time":"37:34",
+    "bio":"The King of Limbs is the eighth studio album by English rock band Radiohead, self-released on 18 February 2011 as a download in MP3 and WAV formats. Following the protracted recording and more conventional alternative rock instrumentation of Radiohead's previous studio album In Rainbows (2007), Radiohead developed much of The King of Limbs by sampling and looping their recordings. It was produced by longtime Radiohead producer Nigel Godrich. Songwriter Thom Yorke described the album as an expression of wildness and mutation.",
     "cover":"http://localhost:5000/static/img/king_of_limbs.jpg",
     "release_date":"2011",
-    "songs":""
+    "songs":
+          {
+          "track1":"Bloom",
+          "track2":"Morning Mr Magpie",
+          "track3":"Little By Little",
+          "track4":"Feral",
+          "track5":"Lotus Flower",
+          "track6":"Codex",
+          "track7":"Give Up The Ghost",
+          "track8":"Seperator"
+          }
   },
   {
     "album_name":"A Moon Shaped Pool",
-    "genre":"...",
+    "genre":"Art Rock",
+    "run_time":"52:31",
+    "bio":"A Moon Shaped Pool is the ninth studio album by the English rock band Radiohead, released digitally on 8 May 2016. CD and LP releases followed in June 2016 through XL Recordings. Radiohead recorded A Moon Shaped Pool in southern France with longtime producer Nigel Godrich. It includes several songs written some years earlier; True Love Waits dates to at least 1995, Burn the Witch to 2000 and Present Tense to 2008. The album features strings and choral vocals arranged by Radiohead guitarist Jonny  Greenwood and performed by the London Contemporary Orchestra.",
     "cover":"http//localhost:5000/static/img/a_moon_shaped_pool.jpg",
-    "release_date":"2016",
-    "songs":""
+    "release_date":"8 May 2016",
+    "songs": 
+          {
+            "track1":"Burn the Witch",
+            "track2":"Daydreaming",
+            "track3":"Decks Dark",
+            "track4":"Desert Island Disk",
+            "track5":"Ful Stop",
+            "track6":"Glass Eyes",
+            "track7":"Identikit",
+            "track8":"The Numbers",
+            "track9":"Present Tense",
+            "track10":"Tinker Tailor Solider Sailor Rich Poor Man Beggar Thief",
+            "track11":"True Love Waits"
+          }
   }
 ]

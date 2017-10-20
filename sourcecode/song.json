@@ -1,6 +1,17 @@
 [
   {
+    "album_name":"Pablo Honey",
+    "song_name":"You",
+    "song_length":"3:29",
+    "spotify": "4,487,537",
+    "cover":"http://localhost:5000/static/img/pablo_honey.jpg"
+  },
+  {
+    "album_name":"Pablo Honey",
     "song_name":"Creep",
-    "cover":""
-  } 
+    "song_length":"3:59",
+    "spotify":"202,277,341",
+    "cover":"http://localhost:5000/static/img/pablo_honey.jpg"
+  }
+
 ]

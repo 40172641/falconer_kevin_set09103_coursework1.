@@ -2,4 +2,22 @@
 {% block content %}
   <p>Name: {{ albums['album_name']}} </p>
   <p>Release Date: {{ albums['release_date']}}  </p>
+  <p>Run Time: {{ albums['run_time']}} </p>
+  <p>Genre: {{ albums['genre'] }} </p>
+  <p> {{ albums['bio']}} </p>
+  <img src="{{ albums['cover']}}" width="250" height="250"</img>
+ <ul>
+  <li><a href='You'> Track 1: {{albums['songs']['track1'] }}</a></li>
+  <li><a href='Creep'> Track 2: {{albums['songs']['track2'] }}</a></li>
+  <li> Track 3: {{albums['songs']['track3'] }} </li>
+  <li> Track 4: {{albums['songs']['track4'] }} </li>
+  <li> Track 5: {{albums['songs']['track5'] }} </li>
+  <li> Track 6: {{albums['songs']['track6'] }} </li>
+  <li> Track 7: {{albums['songs']['track7'] }} </li>
+  <li> Track 8: {{albums['songs']['track8'] }} </li>
+  <li> Track 9: {{albums['songs']['track9'] }} </li>
+  <li> Track 10: {{albums['songs']['track10'] }} </li>
+  <li> Track 11: {{albums['songs']['track11'] }} </li>
+  <li> Track 12: {{albums['songs']['track12'] }} </li>
+</ul>
 {% endblock %}
