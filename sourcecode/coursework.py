@@ -16,6 +16,16 @@ def root(album_name):
 # print specified_album
   return render_template("album.html", albums=specified_album)
 
+@app.route('/albums/Pablo Honey/<song_name>/')
+def song(song_name):
+  json_file=open('song.json').read()
+  song=json.loads(json_file)
+  specified_song = song
+  for item_song in song:
+    if item_song['song_name']==song_name:
+      specified_song = item_song
+  return render_template("song.html", songs=specified_song)
+
 @app.route('/info/')
 def info():
   return render_template('info.html'), 200
