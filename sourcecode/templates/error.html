@@ -1,9 +1,6 @@
-<html>
-<head>
-<title>Albums</title>
-<link href="{{ url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" />
-</head>
-<body>
+{% extends "header.html" %}
+{% block content %}
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -19,5 +16,5 @@
 <h1> Radiohead Discography </h1>
 <h2> Couldn't find the page you requested</h2>
 <h3> Please return to the <a href='/'>site</a></h3>
-</body>
-</html>
+
+{% endblock %}}

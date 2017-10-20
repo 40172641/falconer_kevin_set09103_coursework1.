@@ -1,14 +1,11 @@
-<doctype html>
-<head>
-  <title> Radiohead Discography </title>
-  <link href="{{ url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" />
-</head>
-<body>
-<h2> Radiohead Discography</h2>
+{% extends="header.html" %}
+{% block content %}
 <h4> A Collection of Each Album, Song, and Information Regarding the Band</h4>
 <ul style="list-style-type:none">
   <li><a href="info">Info</a></li>
   <li><a href="albums">Albums</a></li>
   <li><a href="songs">Songs</a><li>
-</body>
-</html>
+  <li><a href="contact">Contact Us</a><li>
+</ul>
+{% endblock %}
+

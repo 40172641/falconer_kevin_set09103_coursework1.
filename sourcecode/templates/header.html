@@ -1,5 +1,25 @@
 <html>
 <head>
-  <link href="{{ url_for('static', filename='css/bootstrap.min.css'}}" rel="stylesheet" />
+ <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" />
 </head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="">Radiohead Discography</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/info"/>Information</a></li>
+      <li><a href="/albums/">Albums</a></li>
+      <li><a href="/contact/">Contact Us</a><li>
+    </ul>
+  </div>
+</nav>
+  
+  <h1> Radiohead Discography </h1>
+
+  {% block content %} {% endblock %}
+</body>
 </html>
+
