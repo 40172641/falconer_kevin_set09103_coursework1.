@@ -1,12 +1,106 @@
-[
-  {
-      "album_name":"Pablo Honey",  
+[     
+  {     
+      "album_name":"Pablo Honey",
       "genre":"Alternative Rock",
-      "release date:":"1993"
+      "release_date":"1993",
+      "cover":"http://localhost:5000/static/img/pablo_honey.jpg",
+      "bio":"",
+      "songs": {
+                  "track1": "You",
+                  "track2": "Creep",
+                  "track3": "How Do You?",
+                  "track4": "Stop Whispering",
+                  "track5": "Thinking About You",
+                  "track6": "Anyone Can Play Guitar",
+                  "track7": "Ripcord",
+                  "track8": "Vegtable",
+                  "track9": "Prove Yourself",
+                  "track10": "I Can't",
+                  "track11": "Lurgee",
+                  "track12": "Blow Out"
+                }
   },
-  { 
+  {
       "album_name":"The Bends",
       "genre":"Alternative Rock/Britpop",
-      "release date":"1995"
+      "release_date":"1995",
+      "cover":"http://localhost:5000/static/img/the_bends.jpg",
+      "bio":"...",
+      "songs":{
+                  "track1":"Planet Telex"
+              }
+  },
+  {
+
+    "album_name":"OK Computer",
+    "genre":"...",
+    "release_date":"1997",
+    "cover":"http://localhost:5000/static/img/ok_computer.jpg",
+    "bio": "",
+    "songs":
+          {
+            "track1": "Airbag",
+            "track2": "Paranoid Android",
+            "track3": "Subterranean Homesick Alien",
+            "track4": "Exit Music (For a Film)",
+            "track5": "Let Down",
+            "track6": "Karma Police",
+            "track7": "Fitter Happier",
+            "track8": "Electioneering",
+            "track9": "Climbing Up The Walls",
+            "track10": "No Surprises",
+            "track11": "Lucky",
+            "track12": "The Tourist"
+    }
+  },
+  {
+    "album_name":"Kid A",
+    "genre":"...",
+    "release_date":"2000",
+    "bio": "",
+    "cover": "http://localhost:5000/static/img/kid_a.jpg",
+    "songs":
+          {
+            "track1": "Everything In It's Right Place",
+            "track2": "Kid A", 
+            "track3": "The National Anthem",
+            "track4": "How To Disappear Completely",
+            "track5": "Treefingers",
+            "track6": "Optimistic",
+            "track7": "In Limbo",
+            "track8": "Idioteque",
+            "track9": "Morning Bell",
+            "track10": "Motion Picture Soundtrack",
+            "track11": "Untitled"
+        } 
+ },
+  {
+    "album_name":"Hail to the Thief",
+    "genre":"...",
+    "cover":"http://localhost:5000/static/img/hail_to_the_thief.jpg",
+    "release_date":"2003",
+    "songs":""
+
+  },
+  {
+    "album_name":"In Rainbows",
+    "genre":"...",
+    "cover":"http://localhost:5000/static/img/in_rainbows.jpg",
+    "release_date":"2007",
+    "songs":""
+  },
+  {
+    "album_name":"King of Limbs",
+    "genre":"...",
+    "cover":"http://localhost:5000/static/img/king_of_limbs.jpg",
+    "release_date":"2011",
+    "songs":""
+  },
+  {
+    "album_name":"A Moon Shaped Pool",
+    "genre":"...",
+    "cover":"http//localhost:5000/static/img/a_moon_shaped_pool.jpg",
+    "release_date":"2016",
+    "songs":""
   }
 ]
